@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated reports
+reports/
+*.report.json
+*.report.csv
+
+# Real authentication logs — NEVER commit these.
+# They contain valid usernames, internal IPs and hostnames.
+*.log
+!tests/fixtures/*.log
+auth.log*
+secure*

@@ -1,0 +1,45 @@
+Mar 10 08:15:02 webserver sshd[1101]: Accepted publickey for joao from 10.0.0.15 port 51234 ssh2: RSA SHA256:0pQrStUvWxYz1234567890AbCdEfGhIjKlMnOpQ
+Mar 10 08:22:41 webserver sshd[1104]: Failed password for joao from 10.0.0.15 port 51288 ssh2
+Mar 10 08:22:58 webserver sshd[1104]: Accepted password for joao from 10.0.0.15 port 51288 ssh2
+Mar 10 09:03:10 webserver sshd[1130]: Accepted publickey for deploy from 10.0.0.42 port 40122 ssh2: ED25519 SHA256:AbCdEfGhIjKlMnOpQrStUvWxYz1234567890
+Mar 10 09:10:00 webserver CRON[2201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 10 09:11:00 webserver sudo[2210]:     joao : TTY=pts/0 ; PWD=/home/joao ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 10 10:00:01 webserver sshd[3001]: Failed password for root from 203.0.113.5 port 40001 ssh2
+Mar 10 10:00:06 webserver sshd[3002]: Failed password for root from 203.0.113.5 port 40002 ssh2
+Mar 10 10:00:11 webserver sshd[3003]: Failed password for root from 203.0.113.5 port 40003 ssh2
+Mar 10 10:00:16 webserver sshd[3004]: Failed password for root from 203.0.113.5 port 40004 ssh2
+Mar 10 10:00:21 webserver sshd[3005]: Failed password for root from 203.0.113.5 port 40005 ssh2
+Mar 10 10:00:26 webserver sshd[3006]: Failed password for root from 203.0.113.5 port 40006 ssh2
+Mar 10 10:00:31 webserver sshd[3007]: Failed password for root from 203.0.113.5 port 40007 ssh2
+Mar 10 10:00:36 webserver sshd[3008]: Failed password for root from 203.0.113.5 port 40008 ssh2
+Mar 10 10:00:41 webserver sshd[3009]: Failed password for root from 203.0.113.5 port 40009 ssh2
+Mar 10 10:00:46 webserver sshd[3010]: Failed password for root from 203.0.113.5 port 40010 ssh2
+Mar 10 10:00:51 webserver sshd[3011]: Failed password for root from 203.0.113.5 port 40011 ssh2
+Mar 10 10:00:56 webserver sshd[3012]: Failed password for root from 203.0.113.5 port 40012 ssh2
+Mar 10 10:01:10 webserver sshd[3013]: Accepted password for root from 203.0.113.5 port 40013 ssh2
+Mar 10 10:30:00 webserver sshd[3301]: Invalid user oracle from 198.51.100.7 port 44001
+Mar 10 10:30:02 webserver sshd[3301]: Failed password for invalid user oracle from 198.51.100.7 port 44001 ssh2
+Mar 10 11:00:00 webserver sshd[4001]: Failed password for invalid user admin from 192.0.2.99 port 45001 ssh2
+Mar 10 11:06:00 webserver sshd[4002]: Failed password for invalid user backup from 192.0.2.99 port 45002 ssh2
+Mar 10 11:12:00 webserver sshd[4003]: Failed password for invalid user deploy from 192.0.2.99 port 45003 ssh2
+Mar 10 11:18:00 webserver sshd[4004]: Failed password for invalid user ftp from 192.0.2.99 port 45004 ssh2
+Mar 10 11:24:00 webserver sshd[4005]: Failed password for invalid user git from 192.0.2.99 port 45005 ssh2
+Mar 10 11:30:00 webserver sshd[4006]: Failed password for invalid user guest from 192.0.2.99 port 45006 ssh2
+Mar 10 11:36:00 webserver sshd[4007]: Failed password for invalid user jenkins from 192.0.2.99 port 45007 ssh2
+Mar 10 11:42:00 webserver sshd[4008]: Failed password for invalid user mysql from 192.0.2.99 port 45008 ssh2
+Mar 10 11:48:00 webserver sshd[4009]: Failed password for invalid user postgres from 192.0.2.99 port 45009 ssh2
+Mar 10 11:54:00 webserver sshd[4010]: Failed password for invalid user ubuntu from 192.0.2.99 port 45010 ssh2
+Mar 10 12:00:00 webserver sshd[4011]: Failed password for invalid user admin from 192.0.2.99 port 45011 ssh2
+Mar 10 12:06:00 webserver sshd[4012]: Failed password for invalid user backup from 192.0.2.99 port 45012 ssh2
+Mar 10 12:12:00 webserver sshd[4013]: Failed password for invalid user deploy from 192.0.2.99 port 45013 ssh2
+Mar 10 12:18:00 webserver sshd[4014]: Failed password for invalid user ftp from 192.0.2.99 port 45014 ssh2
+Mar 10 12:24:00 webserver sshd[4015]: Failed password for invalid user git from 192.0.2.99 port 45015 ssh2
+Mar 10 12:30:00 webserver sshd[4016]: Failed password for invalid user guest from 192.0.2.99 port 45016 ssh2
+Mar 10 12:36:00 webserver sshd[4017]: Failed password for invalid user jenkins from 192.0.2.99 port 45017 ssh2
+Mar 10 12:42:00 webserver sshd[4018]: Failed password for invalid user mysql from 192.0.2.99 port 45018 ssh2
+Mar 10 12:48:00 webserver sshd[4019]: Failed password for invalid user postgres from 192.0.2.99 port 45019 ssh2
+Mar 10 12:54:00 webserver sshd[4020]: Failed password for invalid user ubuntu from 192.0.2.99 port 45020 ssh2
+Mar 32 25:61:99 webserver sshd[9001]: Failed password for root from 10.0.0.9 port 22 ssh2
+Feb 30 10:00:00 webserver sshd[9002]: Failed password for root from 10.0.0.9 port 22 ssh2
+this line is not a syslog entry at all
+Mar 10 13:00:00 webserver sshd[9100]: Failed password for
