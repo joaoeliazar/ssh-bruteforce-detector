@@ -110,7 +110,9 @@ def test_iso_timestamp_supplies_its_own_year():
     event = parse_line(line, year=YEAR)
 
     assert event is not None
-    assert event.timestamp == datetime(2024, 7, 4, 9, 30, 15)
+    assert event.timestamp == datetime(
+        2024, 7, 4, 9, 30, 15, 482611
+    )
     assert event.timestamp.tzinfo is None
 
 

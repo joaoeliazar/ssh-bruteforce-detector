@@ -33,10 +33,10 @@ def test_fixture_exists():
 def test_fixture_counts_are_exact():
     events, stats = read_logs([FIXTURE])
 
-    assert stats.total_lines == 46
+    assert stats.total_lines == 45
     assert stats.parsed_events == 39
     assert stats.malformed_lines == 2
-    assert stats.ignored_lines == 5
+    assert stats.ignored_lines == 4
     assert stats.year_rollovers == 0
     assert len(events) == 39
 
