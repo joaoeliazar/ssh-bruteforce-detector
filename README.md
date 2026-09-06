@@ -1,3 +1,4 @@
+![Tests](https://github.com/joaoeliazar/ssh-bruteforce-detector/actions/workflows/tests.yml/badge.svg)
 # SSH Brute-Force Detector
 
 A Python security tool that parses Linux authentication logs and detects SSH brute-force attacks, password spraying, and successful logins originating from previously hostile IP addresses.
